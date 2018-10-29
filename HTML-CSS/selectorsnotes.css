@@ -1,0 +1,70 @@
+/*Element*/
+li{
+
+}
+/*class*/
+.hello{
+
+}
+/*id*/
+#name{
+
+}
+/*star-targets everything*/
+*{
+	border: 1px solid lightgray;
+}
+/*Descendant Selector -example: selects all anchor tags that are descendants of li*/
+li a{
+	color: red;
+}
+/*Adjacent Selector -example: anything after and adjacent to selected*/
+
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute Selector -selects everthing that is specified*/
+
+a[href="http://www.google.com"]{
+	background: blue;
+}
+input[type="checkbox"]{
+	background:blue;
+}	
+
+/*nth of type example: only the 3rd of ul turned purple*/
+ul:nth-of-type(3){
+	background: purple;
+}
+
+/*type selectors*/
+li{
+
+}
+
+li a{
+
+}
+
+li + a{
+
+}
+
+/*class,attribute, and pseudo-class selectors*/
+.hello{
+
+}
+
+input[type="text"]{
+
+}
+
+/*Id Selectors*/
+#heya{
+
+}
+
+
+
+
